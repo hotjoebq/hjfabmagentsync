@@ -1,0 +1,114 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+credentials.json
+appsettings.json
+local.settings.json
+
+# Azure specific
+*.azureauth
+*.publishsettings
+.azure/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+.tmp/
+
+# MLFlow
+mlruns/
+mlartifacts/
+
+# Fabric specific
+.fabric/
+fabric-cache/
+
+# Original notebooks with sensitive data
+*_original.ipynb
+*_backup.ipynb
+HJMultiAgent.ipynb
+
+# Model files (if large)
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Data files (if sensitive)
+*.csv
+*.xlsx
+*.parquet
+data/
+datasets/
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.pem
+*.key
