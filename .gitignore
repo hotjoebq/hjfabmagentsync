@@ -93,6 +93,7 @@ fabric-cache/
 *_original.ipynb
 *_backup.ipynb
 HJMultiAgent.ipynb
+HJModelDataScience.ipynb
 
 # Model files (if large)
 *.pkl
