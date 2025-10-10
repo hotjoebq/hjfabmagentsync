@@ -1,0 +1,2 @@
+# (Recreated placeholder) See previous version in feature/ai-foundry-connector branch for full automation.
+Write-Host "Placeholder script recreated; previous stash did not contain script contents." -ForegroundColor Yellow
